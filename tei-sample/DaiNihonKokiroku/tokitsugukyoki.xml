@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="year"><dateline><date when-custom="大永七年" calendar="wareki" when="1527">大永七年</date>　<note type="割書">丁<milestone unit="wbr"/>亥</note></dateline>
+            <p>倉部郎兼羽林藤言繼（花押）</p>
+         <div type="month" n="1"><dateline>正月大</dateline>
+         <div type="entry">
+            <p>
+               <lb/>一日、<note type="割書">〈己卯、天晴、時々小雨下、申<milestone unit="wbr"/>下刻より雨降、子刻より晴、〉</note>○昨日番之間、今朝殘役共
+               <lb/>有之請取、御杯參御口へにて祝之、五時分退出了、御局
+               <lb/>々へ御禮參候了、○看經候了、○吉書候了、○祝言如恆
+               <lb/>例、○今夜禁裏に平座あり、就其持明院より石帶、赤
+               <lb/>大口、雜色狩衣被借候、則遣了、○從廣橋下襲<note type="割書">えり</note>被借
+               <lb/>候、遣了、○從轉法輪平緒<note type="割書">〈こん<milestone unit="wbr"/>地、〉</note>被借候、則遣了、○晩、禁
+               <lb/>裏御祝に祇候仕候、御こはくこ參候、天酌<unclear reason="illegible" quantity="3"/>｛御小杯如恆例｝被參
+               <lb/>候輩｛西三條｝帥大納言、<note type="割書">〈公條卿、<milestone unit="wbr"/>素服、〉</note>四辻中納言、<note type="割書">〈公音卿、<milestone unit="wbr"/>素服、〉</note>權中納言、<note type="割書">〈實<unclear reason="illegible" quantity="2"/>、〉</note>
+               <lb/><unclear reason="illegible" quantity="1"/>萬里小路中納言、<note type="割書">〈季房卿、<milestone unit="wbr"/>素服、〉</note>源宰相中將、<note type="割書">〈重親卿、庭<milestone unit="wbr"/>田、素服、〉</note>阿茶々
+               <lb/>丸、<note type="割書">〈公宗<milestone unit="wbr"/><unclear reason="illegible" quantity="1"/>〉</note><unclear reason="illegible" quantity="4"/>範久朝臣、<note>〈高倉少納<milestone unit="wbr"/>言、素服、〉</note>｛冷泉左馬頭｝範遠朝臣、<note type="割書">〈素服、〉</note>｛廣橋右中辨｝兼秀、
+               <lb/>予、｛權中<unclear reason="illegible" quantity="1"/>｝公敍<note type="割書">少將、</note><unclear reason="illegible" quantity="5"/>｛薄極臈｝橘以緒等也、御祝過て、若宮御
+               <lb/>方樣還御<unclear reason="illegible" quantity="3"/>雨降候間、御笠に參候、次、御齒固の
+               <lb/>御祝在之、次<unclear reason="illegible" quantity="4"/>衆御禮被申候、御對面在之、四條
+               <lb/>中納言、<note type="割書">〈隆永<milestone unit="wbr"/>卿、〉</note>中院宰相中將、<note type="割書">〈<unclear reason="illegible" quantity="3"/>、〉</note>申次範久朝臣、次三條
+               <lb/>大納言、<note type="割書">〈公頼<milestone unit="wbr"/>卿、〉</note>持明院宰相規基卿御禮被申候、申次同、次
+               <lb/>長橋局にてかんにて祝在之、帥大納言、<note type="割書">〈同實世<milestone unit="wbr"/>朝臣〉</note>四辻中納
+               <lb/>言、老父、萬里小路中納言、範久朝臣、予等也、次平座
+               <lb/>初、○上卿<note type="割書">〈三條大納言<milestone unit="wbr"/>公頼卿、〉</note>着座、<note type="割書">〈奧、〉</note>次持明院宰相着之、藏人
+               <lb/>來仰云、不出御、依例行へ、上卿取笏微唯、次上卿移端
+               <lb/>座、次召官人敷軾、次以官人召史、史候小庭、上卿目史
+               <lb/>進戟、を<unclear reason="illegible" quantity="1"/>そうけいひつ、仰宜陽殿御裝束之事、次以官
+               <lb/>人召辨奏聞、次返給、次召官人立軾、次上卿已下起座、
+               <lb/>次直上卿已下宜陽殿着端座、次着辨<note type="割書">〈兼房、〉</note>土庇端座、次
+               <lb/>少納言<note type="割書">〈長淳、〉</note>着奧座、兼所司立大盤居饌、敷勸盃軾、次
+               <lb/>少納言立座笏懷中す、内豎渡盃進軾一獻、次少納言本
+               <lb/>座歸、次辨立座笏をさす、如少納言進軾二｛一歟｝獻、次笏を
+               <lb/>ぬいて歸本座如少納言、次上卿已下立箸、次少納言
+               <lb/>進軾一獻如前、次上卿已下箸をぬく、次上卿取笏、以
+               <pb n="2"/>
+               <lb/>官人召外記、<note type="割書">〈康貞外記史を一<milestone unit="wbr"/>人にて兼る、〉</note>仰云、見參、次外記插見參を
+               <lb/>杖候小庭、上卿目外記進軾、上卿以兩手拔取見之、先
+               <lb/>展懸紙見下如常、則返給起座、次上卿已下次第に退
+               <lb/>出了、凡此分歟、長淳雖素服候、平座祇候之間着束帶、
+               <lb/>○今夜内々番衆萬里小路、範久朝臣兩人也、勸修寺｛大納言｝は
+               <lb/>不具之由申候て不參、外樣衆四條中納言、中院宰相
+               <lb/>中將、〈光康番代、〉範遠朝臣、小倉前大納言<note type="割書">〈季種<milestone unit="wbr"/>卿、〉</note>依不具不
+               <lb/>參、○予退出了、今夜菅少納言〈長淳、〉帶劔して堂上、不
+               <lb/>審多、剩天酌に被參候事前代未聞候、是<unclear reason="illegible" quantity="1"/>後例<unclear reason="illegible" quantity="1"/>事、
+            </p>
+         </div>
+         <div type="entry">
+            <p>
+               二日、〈庚辰、天晴、〉○祝言如例了、○晩頭齒固□□、○からす丸禮に來臨候、少納禮に來候由申、○從傳法輪平緒返給候、祝着之由候、○從持明院石帶、赤大口、雜色狩衣口□、○御祝に禁裏へ祇候仕候、｛若宮御方様御参、｝被參輩帥大納□□□□鷲尾前中納言、〈隆康卿、〉萬里小路中納言、實世朝臣、範久口□□□兼秀、予、公敍、孝顯、｛五條爲學卿息｝｛少納言｝爲康、｛素服、｝長淳、諸仲、橘以緒等也、廣橋局茶々小鬼子〈一ツ〉遺之了、○内々番衆範遠朝臣、爲康、橘以緒也、重治卿依不具不參也、○外樣番衆中御門前大納言〈宣秀卿、〉御禮被申上、冷泉右衞門督、〈爲和卿、〉｛北畠宰相中将｝俊茂朝臣代橘以緒、｛清水谷侍從｝公松番代｛世尊寺前宰相｝行季卿不參、
+            </p>
+         </div>
+         <div type="entry">
+            <p>三日、〈辛巳、天晴、未刻に霰降也〉○祝言如昨日也、○今晩禁裏御祝に｛和歌宮御方樣御參｝祇候候、被參候輩帥大納言、四辻中納言、鷲尾前中納言、〈隆康卿、〉萬里小路中納言、源宰相中將、阿茶々丸、實世朝臣、範久朝臣、範遠朝臣、兼秀、予、公敍、孝顯、長淳、諸仲、橘以緒等也、〇今夜内々番衆四辻中納言、〈公音卿、〉源宰相中將、〈重親卿、〉廣橋右中辨〈兼秀、〉等也、○外樣番衆四條前中納言〈隆繼卿、〉御禮被申、花山院大納言、〈忠輔卿、〉資定朝臣〈柳原頭左大辨、〉依不具不參、播磨守和氣業家御禮申候、御懸より參、御三間にて御對面、末にて天杯を拜量、忝事也、
+            </p>
+         </div>
+      </div></div></body>
+  </text>
+</TEI>

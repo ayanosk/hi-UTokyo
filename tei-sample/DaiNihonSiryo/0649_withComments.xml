@@ -52,18 +52,13 @@
 										unit="wbr"/>辰</note>、北朝、四方拜、小朝拜、御藥、關白九條忠基家拜禮ノ後、節 <lb
 									facs="#p120-6" xml:id="line02-0649-0000007"/>會ヲ行フ、 </label>
 							<desc>
-								<!-- <note>を使うなら<noteGrp>がいいと思う。<cit>を使うとグルーピングが難しいという問題も起こる -->
-								<cit corresp="#gukanki">
-									<!-- ここに<cit>も使えそうだが、編纂過程での情報付加を考えるとどちらかというと<note>の方がいい？
-									注釈に使っている<note>とどう棲み分けるかが問題になりそう -->
+								<cit corresp="#gukanki"> <!-- line02-0649-0000006-001? -->
 									<bibl><lb facs="#p120-8" type="書名" xml:id="line02-0649-0000008"
 											/>〔愚管記〕<note facs="#p120-19" type="割書"
 											xml:id="line02-0649-0000009">正月<milestone unit="wbr"
 												facs="#p120-14"/>○大日本古記録<space quantity="1"
 												unit="全角"/>後深心院關白記</note>
 									</bibl>
-									<!-- 出典情報を<bibl>に取り出すか -->
-									<!-- この部分は本文なのか？-->
 									<quote><lb facs="#p120-3" type="本文" xml:id="line02-0649-0000010"
 											/>一日、庚辰、天陰小雪、<add type="補書" place="side-right"
 											>傳聞、</add><seg xml:id="line02-0649-0000010-0201"
@@ -72,25 +67,17 @@
 												>忠光</seg>卿</seg>、外辨參議<seg
 											xml:id="line02-0649-0000010-0102">宣方</seg>・<seg
 											xml:id="line02-0649-0000010-0103">隆廣</seg>
-										<!-- 役職・敬称は人名注の対象に含めない -->
-										<!-- ルビ・傍注は行のxml:id+0101（01が共通、後ろの01はルビ・傍注の順番）
-									標出は行のxml:id+0201（02が共通、後ろの01は標出の順番）
-									傍注と標出が親子構造になる場合がある 
-									xml:idは最後に一括でつけたいところだが、それだと<seg>と<note type="ルビ/標出">の対応を取りづらい-->
-										<!-- 傍注そのものだけでなく、<seg>側にも書いていないと判断しづらく混乱する -->
 										<lb facs="#p120-2" type="本文" xml:id="line02-0649-0000014"
 											/>等朝臣云々、<seg xml:id="line02-0649-0000014-0201"
-											>四位參議行外辨事</seg>、定邂逅事歟、</quote>
+											>四位參議行外辨事</seg>、定邂逅事歟、 </quote>
 									<noteGrp type="annotations">
-										<note facs="#p120-35" type="右傍注"
+										<note facs="#p120-35" type="傍注"
 											target="#line02-0649-0000010-0101" place="side-right"
 											>（柳原）</note>
-										<!-- ocr時点でpythonにかけると<lb>タグにxml:idが付与される。そこを<note>に変えるか、<seg>の直後に置くか？
-										ただし<seg>の直後に置くスタイルは自動化が難しそう。多分type="ルビ"を<note>にする方が楽。あとはocrでルビを読み取れるかの問題か。 -->
-										<note facs="#p120-36" type="右傍注"
+										<note facs="#p120-36" type="傍注"
 											target="#line02-0649-0000010-0102" place="side-right"
 											>（中御門）</note>
-										<note facs="#p120-37" type="右傍注"
+										<note facs="#p120-37" type="傍注"
 											target="#line02-0649-0000010-0103" place="side-right"
 											>（四條）</note>
 										<note facs="#p120-29" type="標出"
@@ -110,7 +97,8 @@
 											/>〔後愚昧記〕<note facs="#p120-20" type="割書"
 											xml:id="line02-0649-0000021">正月<milestone unit="wbr"
 												facs="#p120-21"/>○大日本古記録</note></bibl>
-									<quote><lb facs="#p120-0" type="本文" xml:id="line02-0649-0000023"
+									<quote>
+										<lb facs="#p120-0" type="本文" xml:id="line02-0649-0000023"
 											/>一日、齊、<seg xml:id="line02-0649-0000023-0201"
 											>四方拜</seg>・<seg xml:id="line02-0649-0000023-0202"
 											>小朝拜</seg>・<seg xml:id="line02-0649-0000023-0203"
@@ -127,7 +115,7 @@
 												xml:id="line02-0649-0000028"/>拜禮</seg>了後被參内之間、<seg
 											xml:id="line02-0649-0000028-0201">節會及翌日</seg>、<seg
 											rend="#migiyose">二日</seg>、日古被始行云々、内辨日野大納言、<seg
-											rend="#migiyose">忠光卿</seg>、外辨納</quote>
+											rend="#migiyose">忠光卿</seg>、外辨納 </quote>
 									<noteGrp>
 										<note facs="#p120-38" type="右傍注"
 											target="#line02-0649-0000023-0101" place="side-right"
@@ -163,9 +151,8 @@
 											/>云々、四位宰相行外辨事之條、<seg xml:id="line02-0649-0000038-0201"
 											>仁平例</seg>云々、前内府<seg rend="#migiyose"><seg
 												xml:id="line02-0649-0000038-0101">實繼公</seg>、</seg>
-										<!-- 傍注と右寄せだと、レイアウトの右寄せが優先（親）でいいのか -->
 										<lb facs="#p121-4" type="本文" xml:id="line02-0649-0000040"
-										/>所示送也、仁平ハ何年哉、委可尋注而己、</quote>
+										/>所示送也、仁平ハ何年哉、委可尋注而己、 </quote>
 									<noteGrp type="annotations">
 										<note facs="#p121-37" type="右傍注"
 											target="#line02-0649-0000038-0101">（三條）</note>
@@ -179,21 +166,22 @@
 											/>〔後己心院殿御記〕<note facs="#p121-22" type="割書"
 											xml:id="line02-0649-0000043">正月<milestone unit="wbr"
 												facs="#p121-18"/>○宮内廳書陵部所藏</note></bibl>
-									<quote><lb facs="#p121-13" type="本文"
-											xml:id="line02-0649-0000045"/>一日、<note facs="#p121-23"
-											type="割書" xml:id="line02-0649-0000046">庚<milestone
-												unit="wbr" facs="#p121-20"/>辰、</note>天晴、風和、<seg
-											xml:id="line02-0649-0000045-0201">拜禮事近來中絶</seg>、<gap
+									<quote>
+										<lb facs="#p121-13" type="本文" xml:id="line02-0649-0000045"
+											/>一日、<note facs="#p121-23" type="割書"
+											xml:id="line02-0649-0000046">庚<milestone unit="wbr"
+												facs="#p121-20"/>辰、</note>天晴、風和、<seg
+											xml:id="line02-0649-0000045-0201">拜禮事近來中絶</seg>、<unclear
 											reason="illegible" quantity="1"
-											xml:id="line02-0649-0000045-0101"/>於當年者可令興行之由存之者<gap
+											xml:id="line02-0649-0000045-0101"/>於當年者可令興行之由存之者<unclear
 											reason="illegible" quantity="1"/>自舊年相觸之 <lb
 											facs="#p121-2" type="本文" xml:id="line02-0649-0000053"
-											/>處、各稱故障、人々所存當時如此、尤無其謂事<gap reason="illegible"
+											/>處、各稱故障、人々所存當時如此、尤無其謂事<unclear reason="illegible"
 											quantity="1"/>日野大納言<seg
 											xml:id="line02-0649-0000053-0201">忠光卿一人令領状了</seg>、相觸 <lb
 											facs="#p121-3" type="本文" xml:id="line02-0649-0000056"
-											/>之處及丑四點來、仍先<gap reason="illegible" quantity="2"
-											xml:id="line02-0649-0000056-0101"/>簾中有盃酌事、職事辨<gap
+											/>之處及丑四點來、仍先<unclear reason="illegible" quantity="2"
+											xml:id="line02-0649-0000056-0101"/>簾中有盃酌事、職事辨<unclear
 											reason="illegible"/>自兼皆來、先<add type="補書"
 											place="side-right">降</add>各立中門外、申次右 <lb facs="#p121-5"
 											type="本文" xml:id="line02-0649-0000058"/>中辨<seg
@@ -216,8 +204,8 @@
 											xml:id="line02-0649-0000070-0101">兼治</seg>・六位<seg
 											xml:id="line02-0649-0000070-0102">師興</seg>・<seg
 											xml:id="line02-0649-0000070-0103">師夏</seg>等也、此間<seg
-											xml:id="line02-0649-0000070-0104">予</seg><gap
-											reason="illegible"/>出間再拜、畢人々退、予自打出<gap
+											xml:id="line02-0649-0000070-0104">予</seg><unclear
+											reason="illegible"/>出間再拜、畢人々退、予自打出<unclear
 											reason="illegible" quantity="1"/>次間經簀子 <lb
 											facs="#p121-7" type="本文" xml:id="line02-0649-0000075"
 											/>降南階、左中將舟<seg xml:id="line02-0649-0000075-0101"
@@ -228,20 +216,19 @@
 											xml:id="line02-0649-0000075-0102">參 <lb facs="#p121-6"
 												type="本文" xml:id="line02-0649-0000080"/>内</seg>、<seg
 											xml:id="line02-0649-0000080-0101"
-											>主上</seg>既令著御束帶給、仍予即自<gap reason="illegible"
+											>主上</seg>既令著御束帶給、仍予即自<unclear reason="illegible"
 											quantity="1"/>前著殿上奧御椅子前如常、相次權大納忠光・中 <lb facs="#p121-9"
 											type="本文" xml:id="line02-0649-0000082"
 										/>御門宰相宣方朝臣・四條卒宰相隆廣朝臣著座、小時自下臈起座、於殿上前屏邊著靴、三卿 <lb
 											facs="#p121-12" type="本文" xml:id="line02-0649-0000083"
-											/>立畢、予降自小板敷、於無名内西<gap reason="illegible" quantity="1">
-											<desc>邊</desc>
-										</gap><gap reason="illegible" quantity="1"
+											/>立畢、予降自小板敷、於無名内西<unclear reason="illegible" quantity="1">
+											<supplied cert="high">邊</supplied> <!-- <gap>より<unclear>の方が、亀甲括弧の内容を反映できる。<add>か<supplied> -->
+										</unclear><unclear reason="illegible" quantity="1"
 											xml:id="line02-0649-0000083-0101"
-										/>靴、前驅令著之、次予進陣座前立蔀外、三卿立畢、
-										<!-- 四角の中に文字が置かれた場合はどうする？これは補入か。@certで見分ける？ --></quote>
+											><add resp="編纂者" ana="#line02-0649-0000083-0101" cert="medium">著</add></unclear>靴、前驅令著之、次予進陣座前立蔀外、三卿立畢、 </quote>
 									<noteGrp>
 										<note facs="#p121-38" type="校訂注"
-											target="#line02-0649-0000045-0101">〔仍カ〕</note>
+											target="#line02-0649-0000045-0101">〔仍カ〕</note> <!--「カ」は推定、レイアウトは@place -->
 										<note facs="#p121-39" type="校訂注"
 											target="#line02-0649-0000056-0101">〔召之〕</note>
 										<note facs="#p121-40" type="右傍注"
@@ -296,7 +283,6 @@
 											target="#line02-0649-0000075-0101" place="top">關白九條忌<lb
 												facs="# p121-31"/>下拜禮ノ後<lb facs="#p121-28"
 											/>參内ス</note>
-										<!-- 標出は必ずしもキーワードを抽出したものではなく、内容をまとめたものもある -->
 									</noteGrp>
 									<fw facs="#p121-35" type="柱" xml:id="line02-0649-0000084"
 											>南朝天授三年<space quantity="1" unit="全角"/>北朝永和三年正月一日</fw>
@@ -314,19 +300,19 @@
 										>權大納言</add>忠光卿、兩宰相宣方朝臣・隆廣朝臣、藏人頭右大辨資康朝臣、藏人 <lb facs="#p122-4"
 											type="本文" xml:id="line02-0649-0000091"
 											/>頭左中辨仲光朝田、右中辨宗顯朝臣、<add type="補書" place="side-right"
-											>藏人右少辨經重、</add>藏人權右少辨資教、六位藏人<gap reason="illegible"
+											>藏人右少辨經重、</add>藏人權右少辨資教、六位藏人<unclear reason="illegible"
 											quantity="1"/>知季、藏人○<add type="補書" place="side-right"
 											>菅原</add>長遠列立、 <lb facs="#p122-6" type="本文"
-											xml:id="line02-0649-0000093"/>畢拜舞如<gap
-											reason="illegible" quantity="1"/>畢昇殿上、次於御前有白散、如<gap
+											xml:id="line02-0649-0000093"/>畢拜舞如<unclear
+											reason="illegible" quantity="1"/>畢昇殿上、次於御前有白散、如<unclear
 											reason="illegible" quantity="2"/>節會自然及日出以後、内辨權大納言忠光 <lb
 											facs="#p122-3" type="本文" xml:id="line02-0649-0000094"
 										/>卿、位次參議二人、希有事也、 <lb facs="#p122-2" type="本文"
 											xml:id="line02-0649-0000095"/>二日、<note type="割書"
 												>辛<milestone unit="wbr"/>巳、</note>天晴、節會畢退出、<note
 											facs="#p122-22" type="割書" xml:id="line02-0649-0000097"
-												>○下<milestone unit="wbr" facs="#p122-23"
-										/>略</note></quote>
+												>○下<milestone unit="wbr" facs="#p122-23"/>略</note>
+									</quote>
 									<noteGrp>
 										<note facs="#p122-32" type="ルビ"
 											target="#line02-0649-0000092">〔橘カ〕</note>
@@ -488,7 +474,7 @@
 				<bibl xml:id="gukanki">
 					<title>愚管記</title>
 				</bibl>
-				<bibl xml:id="gogumaiki">
+				<bibl xml:id="gogumaiki"> <!-- idに意味を持たせない方が機械的に処理しやすい -->
 					<title>後愚昧記</title></bibl>
 				<bibl xml:id="gokishinindengyoki">
 					<title>後己心院殿御記</title></bibl>
