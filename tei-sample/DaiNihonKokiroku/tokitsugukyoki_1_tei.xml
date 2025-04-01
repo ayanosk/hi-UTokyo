@@ -118,7 +118,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 	</teiHeader>
 	<text>
 		<body>
-			<div type="前書">
+			<div type="前書"> <!-- 例言と凡例は構造化。目次は -->
 				<ab><pb facs="#p1" n="1"/>
 					<lb corresp="#p1-0" type="本文"/>店 <lb corresp="#p1-1" type="本文"/>弓一自大永七年正月円 <lb
 						corresp="#p1-2" type="本文"/>〓至天文八年正月よ <pb facs="#p2" n="2"/>
@@ -364,9 +364,13 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 									corresp="#p19-30" rend="left"/>下刻より雨降、子刻より晴、 </note>
 						</ab>
 						<ab>
-							<lb corresp="#p19-31" type="本文"/><metamark function="item-break">○</metamark>昨日番之間、今朝殘役共 <lb
-								corresp="#p19-32" type="傍注"/>② <lb corresp="#p19-33" type="本文"
-							/>有之請取、御杯參御口へにて祝之、五時分退出了、御局 <lb corresp="#p19-34" type="本文"
+							<lb corresp="#p19-31" type="本文"/><metamark function="item-break">○</metamark>昨日番之間、今朝殘役共 
+							<note corresp="#p19-32" type="傍注" target="#aaa" targetEnd="#bbb">②</note> <lb corresp="#p19-33" type="本文"
+							/><anchor xml:id="aaa"/>
+							<choice>
+								<sic>有之請取、御杯參御<choice><unclear reason="illegible" n="1"/></choice>へにて</sic>
+								<corr>有之、請取御杯參、御すへにて</corr>
+							</choice><anchor xml:id="bbb"/>祝之、五時分退出了、御局 <lb corresp="#p19-34" type="本文"
 							/>々へ御禮參候了、</ab>
 						<ab><metamark function="item-break">○</metamark>看經候了、</ab>
 						<ab><metamark function="item-break">○</metamark>吉書候了、</ab>
